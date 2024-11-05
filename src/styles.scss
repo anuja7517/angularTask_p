@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+/* Parent Component Styles */
+div {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+button {
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Child Component */
+app-child {
+    display: block;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e8f4ff;
+    border: 1px solid #cce6ff;
+    border-radius: 8px;
+}
